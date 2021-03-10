@@ -1,0 +1,16 @@
+{
+  "name": "asincronismotests",
+  "version": "1.0.0",
+  "description": "Pruebas con APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "testRM1": "node src/pruebasR_M/asyncTest.js",
+    "testRM2": "node src/pruebasR_M/promiseTest.js",
+    "testRM3": "node src/pruebasR_M/callbackTest.js"
+  },
+  "author": "Mateo Monsalve",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
