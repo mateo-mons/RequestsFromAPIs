@@ -6,7 +6,8 @@
   "scripts": {
     "testAsyncRM": "node src/pruebasR_M/asyncTest.js",
     "testPromiseRM": "node src/pruebasR_M/promiseTest.js",
-    "testCallbackRM": "node src/pruebasR_M/callbackTest.js"
+    "testCallbackRM": "node src/pruebasR_M/callbackTest.js",
+    "testAsyncSW": "node src/pruebasS_W/asyncTest2.js"
   },
   "author": "Mateo Monsalve",
   "license": "none",

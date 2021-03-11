@@ -5,8 +5,8 @@ const PEOPLE_URL = 'people/:id'
 const theFunction = async(id) => {
     try {
         const people = await fetchData(`${API}${PEOPLE_URL.replace(':id', id)}`)
-        console.log(people.name)
-        console.log(people.gender)
+        console.log(`Name: ${people.name}`)
+        console.log(`Weight: ${people.mass}Kg`)
     } catch(error) {
         console.error(error)
     }
