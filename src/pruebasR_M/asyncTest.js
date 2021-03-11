@@ -14,6 +14,4 @@ const theFunction = async(url_api) => {
     }
 }
 
-console.log('before')
 theFunction(API)
-console.log('after')
