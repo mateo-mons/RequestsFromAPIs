@@ -12,4 +12,4 @@ const theFunction = async(id) => {
     }
 }
 
-theFunction(5)
+theFunction(1)
