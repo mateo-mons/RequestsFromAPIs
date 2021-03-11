@@ -4,12 +4,12 @@
   "description": "Pruebas con APIs",
   "main": "src/index.js",
   "scripts": {
-    "testRM1": "node src/pruebasR_M/asyncTest.js",
-    "testRM2": "node src/pruebasR_M/promiseTest.js",
-    "testRM3": "node src/pruebasR_M/callbackTest.js"
+    "testAsyncRM": "node src/pruebasR_M/asyncTest.js",
+    "testPromiseRM": "node src/pruebasR_M/promiseTest.js",
+    "testCallbackRM": "node src/pruebasR_M/callbackTest.js"
   },
   "author": "Mateo Monsalve",
-  "license": "ISC",
+  "license": "none",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   }
