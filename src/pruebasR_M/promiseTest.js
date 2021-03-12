@@ -7,11 +7,11 @@ fetchData(API)
         return fetchData(`${API}${data.results[0].id}`)
     })
     .then(data => {
-        console.log(data.name)
+        console.log(`Name: ${data.name}`)
         return fetchData(data.origin.url)
     })
     .then(data => {
-        console.log(data.dimension)
+        console.log(`Origin: ${data.dimension}`)
     })
     .catch(err => {
         console.error(err)
